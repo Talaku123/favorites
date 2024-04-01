@@ -1,0 +1,135 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  background-color: rgb(0, 0, 0) !important;
+  color: #998cff !important;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.center
+{
+  font-size: 100px;
+  font-family:  cursive;
+  margin-top: 140px;
+  
+}
+
+.wrapper
+{
+  align-items: center !important;
+  display: flex !important;
+  justify-content: center;
+  height: 50vh;
+}
+
+ul
+{
+  display: flex;
+}
+
+ul li
+{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: center;
+  margin: 0 78px !important;
+  
+}
+
+.bi
+{
+  font-size: 35px;
+  margin: 0 -10px;
+}
+
+.create
+{
+  letter-spacing: 2px;
+  margin: 50px 0;
+}
+
+.step
+{
+  
+  background-color: #0ae29a;
+  border-radius: 50%;
+  color: #998cff;
+  display: grid;
+  height: 30px;
+  margin: 5px 0 7px;
+  place-items: center;
+  position: relative;
+  width: 30px;
+}
+
+.step::after 
+{
+  background-color: #0ef4ca;
+  content: "";
+  height: 3px;
+  right: 30.3px;
+  position: absolute;
+  width: 11.5rem;
+}
+
+
+.first::after
+{
+  height: 0;
+  width: 0;
+}
+.person
+{
+  color: rgb(255, 0, 242);
+  
+}
+
+.chat
+{
+  color: rgb(186, 180, 190);
+}
+/* .step .bi
+{
+  display: none;
+} */
+
+
+ul li .step p 
+{
+  font-size: 18px;
+}
+
+
+ul li .active 
+{
+  background-color: #1b761b;
+}
+
+
+li .active::after 
+{
+  background-color: #1b761b;
+
+}
+
+ul li .active p 
+{
+  display: none;
+}
+
+ul li .active .bi 
+
+{
+  display: flex;
+}
